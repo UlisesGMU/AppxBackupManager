@@ -1,0 +1,26 @@
+{
+  "backup": [
+    "Choose \"Both\" for the safest backup: Raw restores on this PC, and Packed installs on any PC.",
+    "\"Packed only\" saves disk space. It only removes the temporary Raw folder it made itself, so a Raw backup you made earlier is kept.",
+    "Dependencies such as VCLibs or .NET Native are backed up automatically along with the apps that need them.",
+    "Close an app before backing it up. Files it has open can make the copy fail.",
+    "Running a backup again only redoes what's missing. Tick \"Force re-backup\" to redo everything.",
+    "No Windows SDK? Backups still work as Raw only. Install the \"Windows SDK Signing Tools for Desktop Apps\" to also make portable .appx files.",
+    "Keep the Certs folder with your backup. Restoring on another PC needs it to trust the packages.",
+    "Use \"Open Summary CSV\" to see every backup at a glance. It opens a copy, so editing it can't break anything.",
+    "If signing fails, check the Notes column. The tool now shows SignTool's own error message there.",
+    "Back up to an external drive or cloud folder before resetting Windows, not to the drive being reset."
+  ],
+  "restore": [
+    "Install mode is the most reliable way to restore, especially on a different PC.",
+    "Register mode works from the Raw copy and also registers any missing dependencies from the backup first.",
+    "Error 0x80073CFB means the same version is already installed. Uninstall it first, then restore.",
+    "If an install fails with a trust or certificate error, restore again with sideloading enabled.",
+    "Use the \"Select:\" box and \"Confirm\" to quickly tick all apps, all not-installed items, or everything missing a backup.",
+    "Right-click any row for its files, dependencies, which apps use it, and removal.",
+    "The Remove box next to \"Open Last Full Report\" and the one in the right-click dialog are linked. Changing one changes both.",
+    "Run \"Verify All Backups…\" now and then to catch damaged or incomplete backups before you need them.",
+    "Special Actions can rebuild a missing Raw from Packed, or a missing Packed from Raw.",
+    "An app built for a newer Windows version (error 0x80080204) can't be installed on an older one. No re-try will fix that."
+  ]
+}
