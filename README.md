@@ -24,7 +24,7 @@ machines. This is a personal backup/restore utility, not a piracy tool.
 
 ## Requirements
 
-- Windows 8, 10 or 11 (Tested on Windows 8.1).
+- Windows 8 (Tested on Windows 8.1).
 - Python 3.9+ (Tkinter included with a standard Windows install).
 - PowerShell (ships with Windows).
 - Administrator rights (needed for `Get-AppxPackage`/`Remove-AppxPackage`
